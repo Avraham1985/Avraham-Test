@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "name": "Friends",
+    "type":"group",
+    "contacts": [
+      {
+        "id": 2,
+        "name": "Udi",
+        "type":"contact"
+      },
+      {
+        "id": 3,
+        "name": "Tommy",
+        "type":"contact"
+      },
+      {
+        "id": 6,
+        "name": "Old Friends",
+        "type":"Group",
+        "contacts": [
+          {
+            "id": 7,
+            "name": "Itay",
+            "type":"contact"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Family",
+    "type": "Group",
+    "contacts":[
+          {
+          "id": 5,
+          "name": "Roni",
+          "type": "Contact"
+        }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Ori",
+    "type":"Contact"
+  }
+]

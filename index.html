@@ -1,0 +1,31 @@
+<!doctype html>
+<html ng-app="contactTree">
+<head>
+   <title>Avraham dasa test</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<p class="title">
+    <strong>
+        <font size="8">Contact Tree</font>
+    </strong>
+</p>
+<div ng-controller="TreeController as co">
+    <ul class="tree">
+       <!-- directive-->
+        <node-tree contacts="co.tree"></node-tree>
+    </ul>
+</div>
+
+<!-- angular lib -->
+<script src="lib/angular.min.js"></script>
+<!-- controllers -->
+<script src="src/Controllers/TreeController.js"></script>
+<!-- services -->
+<script src="src/Services/TreeService.js"></script>
+<!-- config -->
+<script src="src/Config/URLConfig.js"></script>
+<!-- directives -->
+<script src="src/Directives/TreeDirectives.js"></script>
+</body>
+</html>
